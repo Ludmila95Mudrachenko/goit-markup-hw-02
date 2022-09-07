@@ -1,0 +1,208 @@
+body {
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+background-color: aliceblue;
+color: #212121;
+}
+
+
+.social-links .link {
+color: #212121;
+}
+
+.social-links .link:hover {
+color: #2196F3;
+}
+
+.white {
+color: #FFFFFF;
+font-family:'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+ }
+.blue {
+color: #2196F3;
+font-family:'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+ }
+ .black {
+color: #212121;
+font-family:'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+ }
+ .kvadrat {
+background-color: #2F303A;
+ }
+ .text-kvadrat{
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+color: #FFFFFF;
+ }
+ .portfolio .cards {
+width:370px;
+height:294px; 
+ }
+ .heroi-btn {
+width: 216px;
+height: 50px;
+left: 692px;
+top: 430px;
+background-color:#2196F3;
+border-radius: 4px;
+ }
+.text-btn { 
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+color: #FFFFFF;
+ }
+ .footer-backgroud .address {
+color: #FFFFFF;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+ }
+ .footer-backgroud {
+background: #2F303A;
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2094px;
+ }
+ .contact {
+color: rgba(255, 255, 255, 0.6);
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+ }
+ .pointer-btn .btn {
+background: #F5F4FA;
+border-radius: 4px;
+color: #212121;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+cursor: pointer;
+ }
+ .pointer-btn .btn:active {
+background: #2196F3;
+border-radius: 4px;
+color: #FFFFFF;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+cursor: pointer;
+ }
+ .pointer-btn .btn:hover {
+background: #2196F3;
+border-radius: 4px;
+color: #FFFFFF;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+cursor: pointer;
+}
+.features .title {
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+color: #212121
+}
+.features .text {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #757575
+}
+.work .process {
+width:370px;
+height:252px;
+}
+.heading {
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+color: #212121;
+}
+.command .team {
+width: 270px;
+height: 260px;   
+}
+.features .subtitle {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #212121;
+}
+.features .text {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #757575
+}
+.work .title {
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+color: #212121
+}
+.command .title {
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+color: #212121
+}
+.command .subtitle {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #212121
+}
+.command .text {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #757575
+}
+.portfolio .title {
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+color: #212121
+}
+.portfolio .text {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+color: #757575
+}
