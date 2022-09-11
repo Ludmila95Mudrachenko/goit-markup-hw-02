@@ -1,6 +1,5 @@
 body {
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-background: #F5F5F5;
+font-family: 'Roboto', sans-serif;
 color: #212121;
 }
 
@@ -9,107 +8,76 @@ background: #FFFFFF;
 }
 
 .social-links .link {
-color: #212121;
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
-cursor: pointer;
+line-height: 1.4;
 text-decoration: none;
 letter-spacing: 0.02em;
 }
 .social-links .active-page {
 color: #2196F3;
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
-cursor: pointer;
+line-height: 1.4;
 text-decoration: none;
 }
 .social-links .link:hover,
 .social-links .link:focus {
 color: #2196F3;
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
-cursor: pointer;
+line-height: 1.4;
 text-decoration: none;
 }
-.white {
+.logo .logo-white {
 color: #FFFFFF;
-font-family:'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
-text-decoration: none;
 }
-.blue {
+.logo {
 color: #2196F3;
 font-family:'Raleway';
-font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.19;
 letter-spacing: 0.03em;
 text-decoration: none;
 }
- .black {
+.logo .logo-black {
 color: #212121;
-font-family:'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
-text-decoration: none;
 }
- .social-links .color {
-font-style: normal;
+.social-links .color {
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 color: #757575;
 }
- .social-links .color:hover,
- .social-links .color:focus {
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
+.social-links .color:hover,
+.social-links .color:focus {
 color: #2196F3;
 }
 a {
 text-decoration: none; 
+color: #212121;
 }
 ul {
-    list-style: none;
+list-style: none;
 }
- .kvadrat {
+.kvadrat {
 background-color: #2F303A;
 }
- .text-kvadrat{
-font-style: normal;
+.text-kvadrat{
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height: 1.36;
 color: #FFFFFF;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 }
- .portfolio .cards {
+.portfolio .cards {
 width:370px;
 height:294px; 
 }
- .heroi-btn {
-width: 216px;
-height: 50px;
-left: 692px;
-top: 430px;
+.heroi-btn {
 background-color:#2196F3;
 border-radius: 4px;
 cursor: pointer;
@@ -117,114 +85,70 @@ border: transparent;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .text-btn { 
-font-style: normal;
 font-weight: 700;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.87;
 color: #FFFFFF;
 }
 .heroi-btn:hover {
 background: #188CE8;
-width: 216px;
-height: 50px;
-left: 692px;
-top: 430px;
-border-radius: 4px;
-cursor: pointer;
-border: transparent;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
- .footer-backgroud .address {
+.footer-backgroud .address {
 color: #FFFFFF;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 }
- .footer-backgroud {
+.footer-backgroud {
 background: #2F303A;
-width: 1600px;
-height: 252px;
-left: 0px;
-top: 2094px;
 }
- .contact {
+.contact {
 color: rgba(255, 255, 255, 0.6);
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 }
- .contact:hover {
+.contact:hover {
 color: #FFFFFF;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
 }
- .pointer-btn .btn {
+.pointer-btn .btn {
 background: #F5F4FA;
 border-radius: 4px;
-color: #212121;
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 26px;
+line-height: 1.62;
 letter-spacing: 0.03em;
 border: transparent;
 cursor: pointer;
 }
- .pointer-btn .btn:active {
+.pointer-btn .btn:active,
+.pointer-btn .btn:hover {
 background: #2196F3;
-border-radius: 4px;
 color: #FFFFFF;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-cursor: pointer;
-border: transparent;
-letter-spacing: 0.03em;
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
- .pointer-btn .btn:hover {
-background: #2196F3;
-border-radius: 4px;
-color: #FFFFFF;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-cursor: pointer;
-border: transparent;
-letter-spacing: 0.03em;
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .pointer-btn .active-btn {
 background: #2196F3;
-border-radius: 4px;
 color: #FFFFFF;
-font-style: normal;
+border-radius: 4px;
 font-weight: 500;
 font-size: 16px;
-line-height: 26px;
-cursor: pointer; 
-border: transparent;
+line-height: 1.62;
 letter-spacing: 0.03em;
+border: transparent;
+cursor: pointer;
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .features .title {
-font-style: normal;
 font-weight: 700;
 font-size: 14px;
-line-height: 16px;
-color: #212121
+line-height: 1.14;
 }
 .features .text {
-font-style: normal;
-font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 color: #757575
 }
 .work .process {
@@ -232,82 +156,64 @@ width:370px;
 height:252px;
 }
 .heading {
-font-style: normal;
 font-weight: 700;
 font-size: 36px;
-line-height: 42px;
-color: #212121;
+line-height: 1.16;
 }
 .command .team {
 width: 270px;
 height: 260px;   
 }
 .features .subtitle {
-font-style: normal;
 font-weight: 700;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #212121;
 }
 .features .text {
-font-style: normal;
-font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: #757575
 }
 .work .title {
-font-style: normal;
 font-weight: 700;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121
 }
 .command .title {
-font-style: normal;
 font-weight: 700;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121
 }
 .command .subtitle {
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121
 }
 .command .text {
-font-style: normal;
-font-weight: 400;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
 color: #757575
 }
 .portfolio .title {
-font-style: normal;
 font-weight: 700;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 letter-spacing: 0.06em;
-color: #212121
 }
 .portfolio .text {
-font-style: normal;
-font-weight: 400;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.87;
 letter-spacing: 0.03em;
 color: #757575
 }
